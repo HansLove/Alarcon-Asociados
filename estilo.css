@@ -1,6 +1,7 @@
 body{
-    background: black;
-    color: whitesmoke;
+    /* background: #ddb600; */
+    background: white;
+    color: black;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
@@ -10,21 +11,49 @@ body{
     font-size: 5rem;
     animation: anim 3s ease-in-out infinite alternate;
 }
+ul{
+    /* background: black; */
+    margin: 0%;
+    width: 100%;
+}
 
+li{
+    color: black;
+    margin: 3%;
+    display: inline-block;
+}
 h2{
     font-size: 3rem;
-    animation: anim2 3s ease-in-out infinite alternate;
+    animation: anim 3s ease-in-out infinite alternate;
 }
+
+
+.video_fondo{
+    z-index: -2;
+    position: fixed;
+    /* opacity: 0.9; */
+    width: 30%;
+    
+}
+
+.img_fondo{
+    display: block;
+    margin: auto;
+    width: 40%;
+    /* position: fixed; */
+    z-index: -2;
+}
+  
 
 @keyframes anim {
     0%{
-        color: goldenrod;
+        color: black;
     }
     50%{
-        color: goldenrod;
+        color: rgb(31, 29, 29);
     }
     100%{
-        color: darkgoldenrod;
+        color: black;
     }
 }
 
@@ -43,7 +72,7 @@ h2{
 
 
 .button_contacto{
-    background: transparent;
+    background: black;
     color: white;
     border-radius: 10%;
     padding: 1% 3%;
